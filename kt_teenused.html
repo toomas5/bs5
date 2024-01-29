@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>teenused</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+</head>
+<link href="pricing.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row text-end">
+        <p> 
+          <span class='icon fas fa-envelope'></span> t@silmberg.ee
+          <span class='icon fas fa-phone'></span> +112 │
+          <span class='icon fas fa-book'></span>
+          <span class='icon fas fa-crow'></span>
+          <button style="border: none;" class='icon fas fa-search' id="search-icon" onclick="toggleSearchBox()"></button>
+        </p>
+      </div>
+  
+  
+      <div id="search-box" class="d-none">
+        <input type="text" class="form-control" placeholder="Search...">
+      </div>
+  
+  
+      <header class="d-flex justify-content-center justify-content-md-between mb-4">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <h2>silmberg.ee</h2>
+        </div>
+  
+        <ul class="nav col-12 col-md-5 mb-2 justify-content-end mb-md-0">
+          <li><a href="kt.html" class="nav-link px-3 link-secondary">Home</a></li>
+          <li><a href="kt_tooted.html" class="nav-link px-3 link-secondary">Tooted</a></li>
+          <li><a href="kt_teenused.html" class="nav-link px-3 link-secondary">Teenused</a></li>
+          <li><a href="kt_kontakt.html" class="btn btn-success me-2 ">Kontakt</a></li>
+        </ul>
+      </header>
+
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Free</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>10 users included</li>
+                  <li>2 GB of storage</li>
+                  <li>Email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Pro</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>20 users included</li>
+                  <li>10 GB of storage</li>
+                  <li>Priority email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header py-3 text-white bg-primary border-primary">
+                <h4 class="my-0 fw-normal">Enterprise</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>30 users included</li>
+                  <li>15 GB of storage</li>
+                  <li>Phone and email support</li>
+                  <li>Help center access</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    
+        <div class="table-responsive">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th style="width: 34%;"></th>
+                <th style="width: 22%;">Free</th>
+                <th style="width: 22%;">Pro</th>
+                <th style="width: 22%;">Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Public</th>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Private</th>
+                <td></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              </tr>
+            </tbody>
+    
+            <tbody>
+              <tr>
+                <th scope="row" class="text-start">Permissions</th>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Sharing</th>
+                <td></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Unlimited members</th>
+                <td></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-start">Extra security</th>
+                <td></td>
+                <td></td>
+                <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+      
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+      </script>
+    <script>
+      function toggleSearchBox() {
+        const searchBox = document.getElementById('search-box');
+        searchBox.classList.toggle('d-none');
+        if (!searchBox.classList.contains('d-none')) {
+          searchBox.querySelector('input').focus();
+        }
+      }
+    </script>
+</body>
+
+</html>
