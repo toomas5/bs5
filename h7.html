@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="et">
-<!doctype html>
-<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -14,23 +12,27 @@
   <script src="https://kit.fontawesome.com/5f11feec13.js" crossorigin="anonymous"></script>
 </head>
 
-<script>
-  $(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-  })
-</script>
-</head>
-
 <body>
   <div class="container">
     <div class="col-sm-4">
-      <h1>tere</h1>
-      <a style="float:right;" href="#" title="Vihjemull" data-toggle="tooltip" data-content="tere" data-placement="bottom">
-        <div class="text-danger"><i class="float-right fa-solid fa-circle-question"></i></div>
-      </a>
+      <h1>
+        <a style="float:right;" href="#" title="Vihjemull" data-toggle="tooltip" data-content="tere" data-placement="bottom">
+          <div class="text-danger"><i class="fa-solid fa-circle-question fa-xs"></i></div>
+        </a>
+        tere
+      </h1>
+
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora quia dolor vel quidem deleniti dolores
         voluptate suscipit doloribus, consectetur ut consequuntur! Fugit quisquam voluptates tempore, excepturi ipsa
         officiis libero iste!</p>
-
     </div>
+  </div>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    })
+  </script>
 </body>
+
+</html>
